@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Poppins&display=swap');
+
+.theme-menu {
+    background-color: #3f3f3f;
+    font-size: 1.5em;
+    font-family: 'DynaPuff', cursive;
+    font-weight: 400;
+    color: #9CA3DB;
+}
+
+.theme-menu a:hover {
+    color: yellow;
+    transform: scale(1.2);
+}
+
+.theme-a {
+    background-color: #351431;
+}
+
+.theme-b {
+    background-color: #775253;
+}
+
+.theme-c{
+    background-color: #9CA3DB;
+}
+
+.social-links {
+    background-color: #9CA3DB;
+}
+
+.title,.subtitle,.text,.link{
+    font-family: 'DynaPuff', cursive;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.title {
+    font-size: 2em;
+    color: #F3DE8A;
+}
+
+.subtitle {
+    font-size: 1.5em;
+    color: #9CA3DB;
+}
+
+.text {
+    font-size: 1em;
+    color: white;
+}
+
+.link {
+    font-size: 0.8em;
+    color: yellow;
+}
+
+.logo-icon {
+    background-color: white;
+    border-radius: 20px;
+}
+
+@media screen and (max-width:1060px){
+    .title {
+        font-size:2em;
+        word-break: break-word;
+    }
+
+    .subtitle{
+        font-size:1.5em;
+        padding: 1em;
+    }
+
+    .text {
+        font-size: 1.2em;
+    }
+}
